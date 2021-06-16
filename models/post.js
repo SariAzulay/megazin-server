@@ -1,7 +1,7 @@
 
 const mongoose= require('mongoose');
 
-const magazinSchema= mongoose.Schema({
+const postSchema= mongoose.Schema({
 
     post_name:{
         type:String,
@@ -13,4 +13,4 @@ const magazinSchema= mongoose.Schema({
     },
 })
 
-module.exports= mongoose.model('Magazin', magazinSchema);
+module.exports= mongoose.model('Post', postSchema);
